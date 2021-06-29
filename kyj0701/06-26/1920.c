@@ -57,7 +57,7 @@ int Partition(int *arr, int left, int right)
         {
             low++;
         }
-        while (high >= (left+1)  && pivot <= arr[high])
+        while (high >= (left+1) && pivot <= arr[high])
         {
             high--;
         }
