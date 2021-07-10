@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #define INF 11
-#define MAX_VERTICES 200000
+#define MAX_VERTICES 20
 
 int dijkstra[MAX_VERTICES][MAX_VERTICES];
 int distance[MAX_VERTICES];
